@@ -1,0 +1,11 @@
+from .mock_data import (
+    PRODUCTS,
+    TRANSACTION_CATEGORY_TO_LIFE_EVENT,
+    CREDIT_SCORE_RANGES,
+)
+
+__all__ = [
+    "PRODUCTS",
+    "TRANSACTION_CATEGORY_TO_LIFE_EVENT",
+    "CREDIT_SCORE_RANGES",
+]
