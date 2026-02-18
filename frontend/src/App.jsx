@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import Users from './pages/Users';
 import UserDetail from './pages/UserDetail';
+import Analytics from './pages/Analytics';
+import Campaigns from './pages/Campaigns';
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
           <Route path="/users/:id" element={<UserDetail />} />
+          <Route path="/analytics" element={<Analytics />} />
+          <Route path="/campaigns" element={<Campaigns />} />
         </Routes>
       </main>
     </div>
